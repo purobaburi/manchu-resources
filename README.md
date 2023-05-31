@@ -1,5 +1,9 @@
 # Manchu Language Resources
 
+> *Saiyūn!*
+> 🌟 If you found this repo helpful, please consider giving it a star 🌟
+> *Baniha!*
+
 The resources in this repository are not my own; I've just compiled the digital resources and pedagogical texts that I've come across. For that reason, I have not included a license–links and files belong to their respective owners. If you spotted any mistakes or have anything to contribute, please feel free to leave an issue :D
 
 I want to extend my gratitude to the [Manchu Discord][manchu-discord-invite] and [tyotakuki][tyotakuki-github] for many of the resource suggestions.
