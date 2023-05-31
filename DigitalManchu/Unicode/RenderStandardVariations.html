@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html>
+  <title>Render Test</title>
+  <head>
+    <style>
+      .tcy {
+        text-combine-upright: all;
+      }
+      .manchu {
+        -webkit-writing-mode: vertical-lr;
+        -o-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+        writing-mode: tb-lr;
+        writing-mode: vertical-lr;
+        vertical-align: text-top;
+        font-family: Noto Sans Mongolian;
+        font-size: 20pt;
+      }
+      .inactive {
+        color: lightgray;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      td {
+        padding-top: 3pt;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Standard Variations</h1>
+    <div>Combinations with Mongolian FVSs as defined by Unicode.org</div>
+    <br />
+    <div class="manchu">
+      <table>
+        <tr>
+          <td><span class="tcy">1.</span>&nbsp;</td>
+          <td>ᠠ᠋【ᠠ】</td>
+          <td><span class="tcy">2.</span>&nbsp;</td>
+          <td class="inactive">ᠠ᠌【ᠠ】</td>
+          <td><span class="tcy">3.</span>&nbsp;</td>
+          <td class="inactive">ᠡ᠋【ᠡ】</td>
+          <td><span class="tcy">4.</span>&nbsp;</td>
+          <td class="inactive">ᠢ᠋【ᠢ】</td>
+          <td><span class="tcy">5.</span>&nbsp;</td>
+          <td class="inactive">ᠣ᠋【ᠣ】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">ᠠ᠋᠊【ᠠ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠠ᠌᠊【ᠠ᠊】</td>
+          <td></td>
+          <td>ᠡ᠋᠊【ᠡ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠢ᠋᠊【ᠢ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠣ᠋᠊【ᠣ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>᠊ᠠ᠋᠊【᠊ᠠ᠊】</td>
+          <td></td>
+          <td>‍ᠠ᠌᠊【᠊ᠠ᠊】</td>
+          <td></td>
+          <td class="inactive">᠊ᠡ᠋᠊【᠊ᠡ᠊】</td>
+          <td></td>
+          <td>᠊ᠢ᠋᠊【᠊ᠢ᠊】</td>
+          <td></td>
+          <td>᠊ᠣ᠋᠊【᠊ᠣ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>‍ᠠ᠋【᠊ᠠ】</td>
+          <td></td>
+          <td class="inactive">᠊ᠠ᠌【᠊ᠠ】</td>
+          <td></td>
+          <td>‍ᠡ᠋【᠊ᠡ】</td>
+          <td></td>
+          <td class="inactive">᠊ᠢ᠋【᠊ᠢ】</td>
+          <td></td>
+          <td>᠊ᠣ᠋【᠊ᠣ】</td>
+        </tr>
+        <tr>
+          <td style="font-size: 12pt">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><span class="tcy">6.</span>&nbsp;</td>
+          <td class="inactive">ᠤ᠋【ᠤ】</td>
+          <td><span class="tcy">7.</span>&nbsp;</td>
+          <td class="inactive">ᠥ᠋【ᠥ】</td>
+          <td><span class="tcy">8.</span>&nbsp;</td>
+          <td class="inactive">ᠥ᠌【ᠥ】</td>
+          <td><span class="tcy">9.</span>&nbsp;</td>
+          <td>ᠦ᠋【ᠦ】</td>
+          <td><span class="tcy">10.</span>&nbsp;</td>
+          <td class="inactive">ᠦ᠌【ᠦ】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">ᠤ᠋᠊【ᠤ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠥ᠋᠊【ᠥ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠥ᠌᠊【ᠥ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠦ᠋᠊【ᠦ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠦ᠌᠊【ᠦ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>᠊ᠤ᠋᠊【᠊ᠤ᠊】</td>
+          <td></td>
+          <td>᠊ᠥ᠋᠊【᠊ᠥ᠊】</td>
+          <td></td>
+          <td>᠊ᠥ᠌᠊【᠊ᠥ᠊】</td>
+          <td></td>
+          <td>᠊ᠦ᠋᠊【᠊ᠦ᠊】</td>
+          <td></td>
+          <td>᠊ᠦ᠌᠊【᠊ᠦ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">᠊ᠤ᠋【᠊ᠤ】</td>
+          <td></td>
+          <td>᠊ᠥ᠋【᠊ᠥ】</td>
+          <td></td>
+          <td class="inactive">᠊ᠥ᠌【᠊ᠥ】</td>
+          <td></td>
+          <td>᠊ᠦ᠋【᠊ᠦ】</td>
+          <td></td>
+          <td class="inactive">᠊ᠦ᠌【᠊ᠦ】</td>
+        </tr>
+        <tr>
+          <td style="font-size: 12pt">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><span class="tcy">11.</span>&nbsp;</td>
+          <td class="inactive">ᠨ᠋【ᠨ】</td>
+          <td><span class="tcy">12.</span>&nbsp;</td>
+          <td class="inactive">ᠨ᠌【ᠨ】</td>
+          <td><span class="tcy">13.</span>&nbsp;</td>
+          <td class="inactive">ᠨ᠍【ᠨ】</td>
+          <td><span class="tcy">14.</span>&nbsp;</td>
+          <td class="inactive">ᠪ᠋【ᠪ】</td>
+          <td><span class="tcy">15.</span>&nbsp;</td>
+          <td>ᠬ᠋【ᠬ】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>ᠨ᠋᠊【ᠨ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠨ᠌᠊【ᠨ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠨ᠍᠊【ᠨ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠪ᠋᠊【ᠪ᠊】</td>
+          <td></td>
+          <td>ᠬ᠋᠊【ᠬ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>᠊ᠨ᠋᠊【᠊ᠨ᠊】</td>
+          <td></td>
+          <td>᠊ᠨ᠌‍【᠊ᠨ᠊】</td>
+          <td></td>
+          <td>᠊ᠨ᠍᠊【᠊ᠨ᠊】</td>
+          <td></td>
+          <td class="inactive">᠊ᠪ᠋᠊【᠊ᠪ᠊】</td>
+          <td></td>
+          <td>᠊ᠬ᠋᠊【᠊ᠬ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">᠊ᠨ᠋【᠊ᠨ】</td>
+          <td></td>
+          <td class="inactive">᠊ᠨ᠌【᠊ᠨ】</td>
+          <td></td>
+          <td class="inactive">᠊ᠨ᠍【᠊ᠨ】</td>
+          <td></td>
+          <td>᠊ᠪ᠋【᠊ᠪ】</td>
+          <td></td>
+          <td class="inactive">᠊ᠬ᠋【᠊ᠬ】</td>
+        </tr>
+        <tr>
+          <td style="font-size: 12pt">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><span class="tcy">16.</span>&nbsp;</td>
+          <td class="inactive">ᠬ᠌【ᠬ】</td>
+          <td><span class="tcy">17.</span>&nbsp;</td>
+          <td class="inactive">ᠬ᠍【ᠬ】</td>
+          <td><span class="tcy">18.</span>&nbsp;</td>
+          <td class="inactive">ᠭ᠋【ᠭ】</td>
+          <td><span class="tcy">19.</span>&nbsp;</td>
+          <td class="inactive">ᠭ᠌【ᠭ】</td>
+          <td><span class="tcy">20.</span>&nbsp;</td>
+          <td class="inactive">ᠭ᠍【ᠭ】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">ᠬ᠌᠊【ᠬ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠬ᠍᠊【ᠬ᠊】</td>
+          <td></td>
+          <td>ᠭ᠋᠊【ᠭ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠭ᠌᠊【ᠭ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠭ᠍᠊【ᠭ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>᠊ᠬ᠌᠊【᠊ᠬ᠊】</td>
+          <td></td>
+          <td>᠊ᠬ᠍‍【᠊ᠬ᠊】</td>
+          <td></td>
+          <td>᠊ᠭ᠋᠊【᠊ᠭ᠊】</td>
+          <td></td>
+          <td>᠊ᠭ᠌᠊【᠊ᠭ᠊】</td>
+          <td></td>
+          <td>᠊ᠭ᠍᠊【᠊ᠭ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">᠊ᠬ᠌【᠊ᠬ】</td>
+          <td></td>
+          <td class="inactive">᠊ᠬ᠍【᠊ᠬ】</td>
+          <td></td>
+          <td>᠊ᠭ᠋【᠊ᠭ】</td>
+          <td></td>
+          <td class="inactive">᠊ᠭ᠌【᠊ᠭ】</td>
+          <td></td>
+          <td class="inactive">᠊ᠭ᠍【᠊ᠭ】</td>
+        </tr>
+        <tr>
+          <td style="font-size: 12pt">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><span class="tcy">21.</span>&nbsp;</td>
+          <td class="inactive">ᠰ᠋【ᠰ】</td>
+          <td><span class="tcy">22.</span>&nbsp;</td>
+          <td class="inactive">ᠰ᠌【ᠰ】</td>
+          <td><span class="tcy">23.</span>&nbsp;</td>
+          <td class="inactive">ᠲ᠋【ᠲ】</td>
+          <td><span class="tcy">24.</span>&nbsp;</td>
+          <td class="inactive">ᠳ᠋【ᠳ】</td>
+          <td><span class="tcy">25.</span>&nbsp;</td>
+          <td class="inactive">ᠵ᠋【ᠵ】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">ᠰ᠋᠊【ᠰ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠰ᠌᠊【ᠰ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠲ᠋᠊【ᠲ᠊】</td>
+          <td></td>
+          <td>ᠳ᠋᠊【ᠳ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠵ᠋᠊【ᠵ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">᠊ᠰ᠋᠊【᠊ᠰ᠊】</td>
+          <td></td>
+          <td class="inactive">᠊ᠰ᠌᠊【᠊ᠰ᠊】</td>
+          <td></td>
+          <td>᠊ᠲ᠋᠊【᠊ᠲ᠊】</td>
+          <td></td>
+          <td>᠊ᠳ᠋᠊【᠊ᠳ᠊】</td>
+          <td></td>
+          <td>᠊ᠵ᠋᠊【᠊ᠵ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>᠊ᠰ᠋【᠊ᠰ】</td>
+          <td></td>
+          <td>᠊ᠰ᠌【᠊ᠰ】</td>
+          <td></td>
+          <td class="inactive">᠊ᠲ᠋【᠊ᠲ】</td>
+          <td></td>
+          <td>᠊ᠳ᠋【᠊ᠳ】</td>
+          <td></td>
+          <td class="inactive">᠊ᠵ᠋【᠊ᠵ】</td>
+        </tr>
+        <tr>
+          <td style="font-size: 12pt">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><span class="tcy">26.</span>&nbsp;</td>
+          <td class="inactive">ᠶ᠋【ᠶ】</td>
+          <td><span class="tcy">27.</span>&nbsp;</td>
+          <td class="inactive">ᠶ᠌【ᠶ】</td>
+          <td><span class="tcy">28.</span>&nbsp;</td>
+          <td class="inactive">ᠸ᠋【ᠸ】</td>
+          <td><span class="tcy">29.</span>&nbsp;</td>
+          <td class="inactive">ᡄ᠋【ᡄ】</td>
+          <td><span class="tcy">30.</span>&nbsp;</td>
+          <td class="inactive">ᡅ᠋【ᡅ】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>ᠶ᠋᠊【ᠶ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠶ᠌᠊【ᠶ᠊】</td>
+          <td></td>
+          <td class="inactive">ᠸ᠋᠊【ᠸ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡄ᠋᠊【ᡄ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡅ᠋᠊【ᡅ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>᠊ᠶ᠋᠊【᠊ᠶ᠊】</td>
+          <td></td>
+          <td>᠊ᠶ᠌᠊【᠊ᠶ᠊】</td>
+          <td></td>
+          <td class="inactive">᠊ᠸ᠋᠊【᠊ᠸ᠊】</td>
+          <td></td>
+          <td>᠊ᡄ᠋᠊【᠊ᡄ᠊】</td>
+          <td></td>
+          <td>᠊ᡅ᠋᠊【᠊ᡅ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">᠊ᠶ᠋【᠊ᠶ】</td>
+          <td></td>
+          <td class="inactive">᠊ᠶ᠌【᠊ᠶ】</td>
+          <td></td>
+          <td>᠊ᠸ᠋【᠊ᠸ】</td>
+          <td></td>
+          <td class="inactive">᠊ᡄ᠋【᠊ᡄ】</td>
+          <td></td>
+          <td class="inactive">᠊ᡅ᠋【᠊ᡅ】</td>
+        </tr>
+        <tr>
+          <td style="font-size: 12pt">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><span class="tcy">31.</span>&nbsp;</td>
+          <td class="inactive">ᡆ᠋【ᡆ】</td>
+          <td><span class="tcy">32.</span>&nbsp;</td>
+          <td>ᡇ᠋【ᡇ】</td>
+          <td><span class="tcy">33.</span>&nbsp;</td>
+          <td class="inactive">ᡇ᠌【ᡇ】</td>
+          <td><span class="tcy">34.</span>&nbsp;</td>
+          <td class="inactive">ᡈ᠋【ᡈ】</td>
+          <td><span class="tcy">35.</span>&nbsp;</td>
+          <td>ᡉ᠋【ᡉ】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">ᡆ᠋᠊【ᡆ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡇ᠋᠊【ᡇ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡇ᠌᠊【ᡇ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡈ᠋᠊【ᡈ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡉ᠋᠊【ᡉ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>᠊ᡆ᠋᠊【᠊ᡆ᠊】</td>
+          <td></td>
+          <td>᠊ᡇ᠋᠊【᠊ᡇ᠊】</td>
+          <td></td>
+          <td>᠊ᡇ᠌᠊【᠊ᡇ᠊】</td>
+          <td></td>
+          <td>᠊ᡈ᠋᠊【᠊ᡈ᠊】</td>
+          <td></td>
+          <td>᠊ᡉ᠋᠊【᠊ᡉ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">᠊ᡆ᠋【᠊ᡆ】</td>
+          <td></td>
+          <td>᠊ᡇ᠋【᠊ᡇ】</td>
+          <td></td>
+          <td class="inactive">᠊ᡇ᠌【᠊ᡇ】</td>
+          <td></td>
+          <td class="inactive">᠊ᡈ᠋【᠊ᡈ】</td>
+          <td></td>
+          <td class="inactive">᠊ᡉ᠋【᠊ᡉ】</td>
+        </tr>
+        <tr>
+          <td style="font-size: 12pt">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><span class="tcy">36.</span>&nbsp;</td>
+          <td class="inactive">ᡍ᠋【ᡍ】</td>
+          <td><span class="tcy">37.</span>&nbsp;</td>
+          <td class="inactive">ᡎ᠋【ᡎ】</td>
+          <td><span class="tcy">38.</span>&nbsp;</td>
+          <td class="inactive">ᡝ᠋【ᡝ】</td>
+          <td><span class="tcy">39.</span>&nbsp;</td>
+          <td class="inactive">ᡞ᠋【ᡞ】</td>
+          <td><span class="tcy">40.</span>&nbsp;</td>
+          <td class="inactive">ᡞ᠌【ᡞ】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>ᡍ᠋᠊【ᡍ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡎ᠋᠊【ᡎ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡝ᠋᠊【ᡝ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡞ᠋᠊【ᡞ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡞ᠌᠊【ᡞ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>᠊ᡍ᠋᠊【᠊ᡍ᠊】</td>
+          <td></td>
+          <td>᠊ᡎ᠋᠊【᠊ᡎ᠊】</td>
+          <td></td>
+          <td>᠊ᡝ᠋᠊【᠊ᡝ᠊】</td>
+          <td></td>
+          <td>᠊ᡞ᠋᠊【᠊ᡞ᠊】</td>
+          <td></td>
+          <td>᠊ᡞ᠌᠊【᠊ᡞ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">᠊ᡍ᠋【᠊ᡍ】</td>
+          <td></td>
+          <td class="inactive">᠊ᡎ᠋【᠊ᡎ】</td>
+          <td></td>
+          <td>᠊ᡝ᠋【᠊ᡝ】</td>
+          <td></td>
+          <td>᠊ᡞ᠋【᠊ᡞ】</td>
+          <td></td>
+          <td>᠊ᡞ᠌【᠊ᡞ】</td>
+        </tr>
+        <tr>
+          <td style="font-size: 12pt">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><span class="tcy">41.</span>&nbsp;</td>
+          <td class="inactive">ᡠ᠋【ᡠ】</td>
+          <td><span class="tcy">42.</span>&nbsp;</td>
+          <td class="inactive">ᡣ᠋【ᡣ】</td>
+          <td><span class="tcy">43.</span>&nbsp;</td>
+          <td class="inactive">ᡨ᠋【ᡨ】</td>
+          <td><span class="tcy">44.</span>&nbsp;</td>
+          <td class="inactive">ᡨ᠌【ᡨ】</td>
+          <td><span class="tcy">45.</span>&nbsp;</td>
+          <td class="inactive">ᡩ᠋【ᡩ】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">ᡠ᠋᠊【ᡠ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡣ᠋᠊【ᡣ᠊】</td>
+          <td></td>
+          <td>ᡨ᠋᠊【ᡨ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡨ᠌᠊【ᡨ᠊】</td>
+          <td></td>
+          <td>ᡩ᠋᠊【ᡩ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>᠊ᡠ᠋᠊【᠊ᡠ᠊】</td>
+          <td></td>
+          <td>᠊ᡣ᠋᠊【᠊ᡣ᠊】</td>
+          <td></td>
+          <td>᠊ᡨ᠋᠊【᠊ᡨ᠊】</td>
+          <td></td>
+          <td>᠊ᡨ᠌᠊【᠊ᡨ᠊】</td>
+          <td></td>
+          <td>᠊ᡩ᠋᠊【᠊ᡩ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>᠊ᡠ᠋【᠊ᡠ】</td>
+          <td></td>
+          <td class="inactive">᠊ᡣ᠋【᠊ᡣ】</td>
+          <td></td>
+          <td class="inactive">᠊ᡨ᠋【᠊ᡨ】</td>
+          <td></td>
+          <td class="inactive">᠊ᡨ᠌【᠊ᡨ】</td>
+          <td></td>
+          <td class="inactive">᠊ᡩ᠋【᠊ᡩ】</td>
+        </tr>
+        <tr>
+          <td style="font-size: 12pt">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><span class="tcy">46.</span>&nbsp;</td>
+          <td class="inactive">ᡯ᠋【ᡯ】</td>
+          <td><span class="tcy">47.</span>&nbsp;</td>
+          <td class="inactive">ᡳ᠋【ᡳ】</td>
+          <td><span class="tcy">48.</span>&nbsp;</td>
+          <td class="inactive">ᡳ᠌【ᡳ】</td>
+          <td><span class="tcy">49.</span>&nbsp;</td>
+          <td class="inactive">ᡳ᠍【ᡳ】</td>
+          <td><span class="tcy">50.</span>&nbsp;</td>
+          <td class="inactive">ᡴ᠋【ᡴ】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>ᡯ᠋᠊【ᡯ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡳ᠋᠊【ᡳ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡳ᠌᠊【ᡳ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡳ᠍᠊【ᡳ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡴ᠋᠊【ᡴ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>᠊ᡯ᠋᠊【᠊ᡯ᠊】</td>
+          <td></td>
+          <td>᠊ᡳ᠋᠊【᠊ᡳ᠊】</td>
+          <td></td>
+          <td>᠊ᡳ᠌᠊【᠊ᡳ᠊】</td>
+          <td></td>
+          <td>᠊ᡳ᠍᠊【᠊ᡳ᠊】</td>
+          <td></td>
+          <td>᠊ᡴ᠋᠊【᠊ᡴ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">᠊ᡯ᠋【᠊ᡯ】</td>
+          <td></td>
+          <td>᠊ᡳ᠋【᠊ᡳ】</td>
+          <td></td>
+          <td>᠊ᡳ᠌【᠊ᡳ】</td>
+          <td></td>
+          <td class="inactive">᠊ᡳ᠍【᠊ᡳ】</td>
+          <td></td>
+          <td>᠊ᡴ᠋【᠊ᡴ】</td>
+        </tr>
+        <tr>
+          <td style="font-size: 12pt">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><span class="tcy">51.</span>&nbsp;</td>
+          <td class="inactive">ᡴ᠌【ᡴ】</td>
+          <td><span class="tcy">52.</span>&nbsp;</td>
+          <td class="inactive">ᡴ᠍【ᡴ】</td>
+          <td><span class="tcy">53.</span>&nbsp;</td>
+          <td class="inactive">ᡶ᠋【ᡶ】</td>
+          <td><span class="tcy">54.</span>&nbsp;</td>
+          <td>ᢀ᠋【ᢀ】</td>
+          <td><span class="tcy">55.</span>&nbsp;</td>
+          <td>ᢁ᠋【ᢁ】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">ᡴ᠌᠊【ᡴ᠊】</td>
+          <td></td>
+          <td class="inactive">ᡴ᠍᠊【ᡴ᠊】</td>
+          <td></td>
+          <td>ᡶ᠋᠊【ᡶ᠊】</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>᠊ᡴ᠌᠊【᠊ᡴ᠊】</td>
+          <td></td>
+          <td>᠊ᡴ᠍᠊【᠊ᡴ᠊】</td>
+          <td></td>
+          <td>᠊ᡶ᠋᠊【᠊ᡶ᠊】</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>᠊ᡴ᠌【᠊ᡴ】</td>
+          <td></td>
+          <td class="inactive">᠊ᡴ᠍【᠊ᡴ】</td>
+          <td></td>
+          <td class="inactive">᠊ᡶ᠋【᠊ᡶ】</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style="font-size: 12pt">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><span class="tcy">56.</span>&nbsp;</td>
+          <td>ᢇ᠋【ᢇ】</td>
+          <td><span class="tcy">57.</span>&nbsp;</td>
+          <td class="inactive">ᢇ᠌【ᢇ】</td>
+          <td><span class="tcy">58.</span>&nbsp;</td>
+          <td class="inactive">ᢇ᠍【ᢇ】</td>
+          <td><span class="tcy">59.</span>&nbsp;</td>
+          <td class="inactive">ᢈ᠋【ᢈ】</td>
+          <td><span class="tcy">60.</span>&nbsp;</td>
+          <td class="inactive">ᢊ᠋【ᢊ】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">ᢇ᠋‍【ᢇ‍】</td>
+          <td></td>
+          <td class="inactive">ᢇ᠌‍【ᢇ‍】</td>
+          <td></td>
+          <td class="inactive">ᢇ᠍‍【ᢇ‍】</td>
+          <td></td>
+          <td class="inactive">ᢈ᠋᠊【ᢈ᠊】</td>
+          <td></td>
+          <td>ᢊ᠋‍【ᢊ᠊】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="inactive">‍ᢇ᠋‍【‍ᢇ‍】</td>
+          <td></td>
+          <td class="inactive">‍ᢇ᠌‍【‍ᢇ‍】</td>
+          <td></td>
+          <td class="inactive">‍ᢇ᠍‍【‍ᢇ‍】</td>
+          <td></td>
+          <td class="inactive">᠊ᢈ᠋᠊【᠊ᢈ᠊】</td>
+          <td></td>
+          <td>᠊ᢊ᠋᠊【᠊ᢊ‍】</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>᠊ᢇ᠋【᠊ᢇ】</td>
+          <td></td>
+          <td> ‍ᢇ᠌【᠊ᢇ】</td>
+          <td></td>
+          <td>᠊ᢇ᠍【᠊ᢇ】</td>
+          <td></td>
+          <td>᠊ᢈ᠋【᠊ᢈ】</td>
+          <td></td>
+          <td class="inactive">᠊ᢊ᠋【᠊ᢊ】</td>
+        </tr>
+      </table>
+    </div>
+    <!-- <div class="manchu">
+      <span class="tcy">1.</span>&nbsp; ᠠ᠋【ᠠ】
+      <span class="tcy">2.</span>&nbsp; ᠠ᠌【ᠠ】
+      <span class="tcy">3.</span>&nbsp; ᠡ᠋【ᠡ】
+      <span class="tcy">4.</span>&nbsp; ᠢ᠋【ᠢ】
+      <span class="tcy">5.</span>&nbsp; ᠣ᠋【ᠣ】 <br /><span class="tcy">6.</span
+      >&nbsp; ᠤ᠋【ᠤ】 <span class="tcy">7.</span>&nbsp; ᠥ᠋【ᠥ】
+      <span class="tcy">8.</span>&nbsp; ᠥ᠌【ᠥ】
+      <span class="tcy">9.</span>&nbsp; ᠦ᠋【ᠦ】
+      <span class="tcy">10.</span>&nbsp; ᠦ᠌【ᠦ】 <br /><span class="tcy"
+        >11.</span
+      >&nbsp; ᠨ᠋【ᠨ】 <span class="tcy">12.</span>&nbsp; ᠨ᠌【ᠨ】
+      <span class="tcy">13.</span>&nbsp; ᠨ᠍【ᠨ】
+      <span class="tcy">14.</span>&nbsp; ᠪ᠋【ᠪ】
+      <span class="tcy">15.</span>&nbsp; ᠬ᠋【ᠬ】 <br /><span class="tcy"
+        >16.</span
+      >&nbsp; ᠬ᠌【ᠬ】 <span class="tcy">17.</span>&nbsp; ᠬ᠍【ᠬ】
+      <span class="tcy">18.</span>&nbsp; ᠭ᠋【ᠭ】
+      <span class="tcy">19.</span>&nbsp; ᠭ᠌【ᠭ】
+      <span class="tcy">20.</span>&nbsp; ᠭ᠍【ᠭ】 <br /><span class="tcy"
+        >21.</span
+      >&nbsp; ᠰ᠋【ᠰ】 <span class="tcy">22.</span>&nbsp; ᠰ᠌【ᠰ】
+      <span class="tcy">23.</span>&nbsp; ᠲ᠋【ᠲ】
+      <span class="tcy">24.</span>&nbsp; ᠳ᠋【ᠳ】
+      <span class="tcy">25.</span>&nbsp; ᠵ᠋【ᠵ】 <br /><span class="tcy"
+        >26.</span
+      >&nbsp; ᠶ᠋【ᠶ】 <span class="tcy">27.</span>&nbsp; ᠶ᠌【ᠶ】
+      <span class="tcy">28.</span>&nbsp; ᠸ᠋【ᠸ】
+      <span class="tcy">29.</span>&nbsp; ᡄ᠋【ᡄ】
+      <span class="tcy">30.</span>&nbsp; ᡅ᠋【ᡅ】 <br /><span class="tcy"
+        >31.</span
+      >&nbsp; ᡆ᠋【ᡆ】 <span class="tcy">32.</span>&nbsp; ᡇ᠋【ᡇ】
+      <span class="tcy">33.</span>&nbsp; ᡇ᠌【ᡇ】
+      <span class="tcy">34.</span>&nbsp; ᡈ᠋【ᡈ】
+      <span class="tcy">35.</span>&nbsp; ᡉ᠋【ᡉ】 <br /><span class="tcy"
+        >36.</span
+      >&nbsp; ᡍ᠋【ᡍ】 <span class="tcy">37.</span>&nbsp; ᡎ᠋【ᡎ】
+      <span class="tcy">38.</span>&nbsp; ᡝ᠋【ᡝ】
+      <span class="tcy">39.</span>&nbsp; ᡞ᠋【ᡞ】
+      <span class="tcy">40.</span>&nbsp; ᡞ᠌【ᡞ】 <br /><span class="tcy"
+        >41.</span
+      >&nbsp; ᡠ᠋【ᡠ】 <span class="tcy">42.</span>&nbsp; ᡣ᠋【ᡣ】
+      <span class="tcy">43.</span>&nbsp; ᡨ᠋【ᡨ】
+      <span class="tcy">44.</span>&nbsp; ᡨ᠌【ᡨ】
+      <span class="tcy">45.</span>&nbsp; ᡩ᠋【ᡩ】 <br /><span class="tcy"
+        >46.</span
+      >&nbsp; ᡯ᠋【ᡯ】 <span class="tcy">47.</span>&nbsp; ᡳ᠋【ᡳ】
+      <span class="tcy">48.</span>&nbsp; ᡳ᠌【ᡳ】
+      <span class="tcy">49.</span>&nbsp; ᡳ᠍【ᡳ】
+      <span class="tcy">50.</span>&nbsp; ᡴ᠋【ᡴ】 <br /><span class="tcy"
+        >51.</span
+      >&nbsp; ᡴ᠌【ᡴ】 <span class="tcy">52.</span>&nbsp; ᡴ᠍【ᡴ】
+      <span class="tcy">53.</span>&nbsp; ᡶ᠋【ᡶ】
+      <span class="tcy">54.</span>&nbsp; ᢀ᠋【ᢀ】
+      <span class="tcy">55.</span>&nbsp; ᢁ᠋【ᢁ】 <br /><span class="tcy"
+        >56.</span
+      >&nbsp; ᢇ᠋【ᢇ】 <span class="tcy">57.</span>&nbsp; ᢇ᠌【ᢇ】
+      <span class="tcy">58.</span>&nbsp; ᢇ᠍【ᢇ】
+      <span class="tcy">59.</span>&nbsp; ᢈ᠋【ᢈ】
+      <span class="tcy">60.</span>&nbsp; ᢊ᠋【ᢊ】
+    </div> -->
+  </body>
+</html>
